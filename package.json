@@ -1,9 +1,16 @@
 {
   "name": "ember-3d-orbit-controls",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Ember 3D addon to add Three.js orbit controls support.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli",
+    "three",
+    "three.js",
+    "3d",
+    "animation",
+    "webgl",
+    "orbit-controls"
   ],
   "license": "MIT",
   "author": "",
@@ -47,6 +54,9 @@
     "node": ">= 0.12.0"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "after": [
+      "ember-3d"
+    ]
   }
 }
