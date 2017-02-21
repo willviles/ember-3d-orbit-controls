@@ -1,4 +1,5 @@
-# Ember 3D Orbit Controls
+Ember 3D Orbit Controls [![npm](https://img.shields.io/npm/v/ember-3d-orbit-controls.svg)](https://www.npmjs.com/package/ember-3d-orbit-controls)
+======
 
 Offers Three.js Orbit Controls functionality for [Ember 3D](https://github.com/willviles/ember-3d), an Ember Addon for using [Three.js](https://github.com/mrdoob/three.js).
 
